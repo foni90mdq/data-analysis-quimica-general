@@ -40,7 +40,20 @@ Algunas alternativas a los programas mencionados anteriormente son las siguiente
 
 Todos los programas mencionados en la lista anterior son muy utiles y es recomendable que los chequeen, sin embargo la curva de aprendizaje sobre todo para aquellos que no tienen interfase grafica (R, Python, Gnuplot) puede ser un poco empinada al comienzo. R es uno de los lenguajes de programacion mas usado en todo el mundo para analisis y representacion de datos, en el siguiente [link](https://github.com/foni90mdq/introduccion-a-r.github.io) podran encontrar una introduccion aquellos que estén interesados.
 
+Para los trabajo practicos que desarrollaremos en Quimica General es suficiente con usar la suite Libre Office. Usaremos Calc (programa de hoja de calculo alternativo a Excel) y Writer (programa de hoja de calculo alternativo a Excel).
 
+## Ejemplo 1: Solubilidad
 
+Queremos investigar como varia la solubilidad del NaCl con la temperatura. Se preparan soluciones saturadas de NaCl a distinta temperatura y se mide se concentración. Los datos obtenidos son los que se muestran en la Tabla 1. 
 
+Tabla 1. Solubilidad de 
+
+| Data Measurement number | Temperature (oC) | Solubility (g NaCl/100 g water) |
+| ----------------------- | ---------------- | ------------------------------- |
+| 1                       | 0.00             | 35.2                            |
+| 2                       | 20.0             | 36.1                            |
+| 3                       | 40.0             | 37.0                            |
+| 4                       | 60.0             | 37.7                            |
+| 5                       | 80.0             | 38.4                            |
+| 6                       | 100.0            | 39.0                            |
 
