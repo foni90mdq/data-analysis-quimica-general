@@ -44,16 +44,34 @@ Para los trabajo practicos que desarrollaremos en Quimica General es suficiente 
 
 ## Ejemplo 1: Solubilidad
 
-Queremos investigar como varia la solubilidad del NaCl con la temperatura. Se preparan soluciones saturadas de NaCl a distinta temperatura y se mide se concentración. Los datos obtenidos son los que se muestran en la Tabla 1. 
+Queremos investigar como varia la solubilidad del NaCl con la temperatura. Se preparan soluciones saturadas de NaCl a distinta temperatura y se mide su concentración. Los datos obtenidos son los que se muestran en la Tabla 1. 
 
-Tabla 1. Solubilidad de 
+Tabla 1. Solubilidad de NaCl obtenida a distintas temperaturas.
 
-| Data Measurement number | Temperature (oC) | Solubility (g NaCl/100 g water) |
-| ----------------------- | ---------------- | ------------------------------- |
-| 1                       | 0.00             | 35.2                            |
-| 2                       | 20.0             | 36.1                            |
-| 3                       | 40.0             | 37.0                            |
-| 4                       | 60.0             | 37.7                            |
-| 5                       | 80.0             | 38.4                            |
-| 6                       | 100.0            | 39.0                            |
+| Muestra | Temperatura (C) | Solubilidad (g NaCl/100 g water) |
+| ------- | --------------- | -------------------------------- |
+| 1       | 0.00            | 35.2                             |
+| 2       | 20.0            | 36.1                             |
+| 3       | 40.0            | 37.0                             |
+| 4       | 60.0            | 37.7                             |
+| 5       | 80.0            | 38.4                             |
+| 6       | 100.0           | 39.0                             |
+
+Este ejemplo servira para tener un primer acercamiento a como deben presentarse y analizarse los datos obtenidos. Tanto tablas como figuras deben tener un tiutulo, en las tablas suele ir antes de la tabla, como se mostros en el ejemplo y en las figuras debajo. Siempre deben numerarse (las tablas por un lado, las figuras por otro) y deben estar siempre referidas en el texto, como se hizo en el parrafo anterior. Todas las variables deben escribirse con unidades adecuadas.
+
+Como dijimos antes, queremos ver como varia la solubilidad del NaCl con la temperatura, es decir, queremos ver si existe alguna funcion matematica que relaciones la solubilidad (**s**) con la temperatura (**T**), es decir, queremos encontrar
+
+s=f(T) 																														(1)
+
+Las ecuaciones deben escribirse con un editor de ecuaciones apropiado y deben numerarse para poder referidas en el texto (Eq. 1)
+
+Hay dos variables estudiadas, **T** y **s**. Lasvariables dependientes son las que se miden durante el experimento (**s**) mientras que las Independientes son las que son fijadas *a priori* por el disenio experimental, en este caso, **T**.
+
+Cuando queremos graficar dos variables es usual poner la independiente en el eje x y la dependiente en el eje y.
+
+
+
+
+
+
 
