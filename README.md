@@ -61,7 +61,7 @@ Este ejemplo servira para tener un primer acercamiento a como deben presentarse 
 
 Como dijimos antes, queremos ver como varia la solubilidad del NaCl con la temperatura, es decir, queremos ver si existe alguna funcion matematica que relaciones la solubilidad (**s**) con la temperatura (**T**), es decir, queremos encontrar
 
-s=f(T) 																														(1)
+$$s=f(T)$$ 																										(1)
 
 Las ecuaciones deben escribirse con un editor de ecuaciones apropiado y deben numerarse para poder referidas en el texto (Eq. 1)
 
