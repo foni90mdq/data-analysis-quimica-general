@@ -85,6 +85,8 @@ Figura 2. Ajuste de regresion lineal (linea roja) sobre los datos de solubilidad
 
 Vemos que el $R^2$ es muy cercano a uno por lo que podemos decir que el ajuste lineal es adecuado. Aunque presentamos la ecuacion y el $R^2$ en la Fig. 2 es adecuado escribir la funcion obtenido como una ecuacion presentada en el cuerpo del texto (Ec. 2).
 
+$s=0.038 T+35.33$ (2)
+
  
 
 
