@@ -116,11 +116,11 @@ Podrian estar tentados a calcular para cada fila con la ecuacion anteriro el val
 
 Podemos reorganizar la Ec. 3 de manera para mostrar la dependencia de la presion con el volumen a T y n constantes (Ec. 4):
 
-$P=frac{RnT}{V}$ (4)
+$P=\frac{RnT}{V}$ (4)
 
 O lo que es lo mismo (Ec. 5):
 
-$P=RnTfrac{1}{V}$ (5)
+$P=RnT\frac{1}{V}$ (5)
 
 En la Ec 4 resulta evidente que la relacion entre P y V no es lineal, un grafico de P vs V lo comprueba (Fig. 3)
 
@@ -171,7 +171,7 @@ Figura 4. Dependecia lineal de P con la inversa del volumen.
 
 La Ec. 5 muestra que luego de obtener la recta que mejor se ajusta a los puntos representados en Fig. 4 puede obtener el valor de R de la siguiente manera:
 
-$R=frac{m}{nT}$ (6)
+$R=\frac{m}{nT}$ (6)
 
 Donde $m$ es el valor de la pendiente y n y T son el numero de moles y la temperatura respectivamente.
 
