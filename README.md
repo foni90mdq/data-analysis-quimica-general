@@ -87,7 +87,44 @@ Vemos que el $R^2$ es muy cercano a uno por lo que podemos decir que el ajuste l
 
 $s=0.038 T+35.33$ (2)
 
- 
+## Transformaciones de datos y modelado
+
+En algunos casos, de la grafica directa de los datos crudo no puede obtenerse ninguna informacion interesante y es neceasario primero transformar los datos (hacer cuentas) usando modelos (teorias, ecuaciones) conocidas que nos ayuden a transformar las variables en otras que puedan ser representadas graficamente para obtener la informacion buscada.
+
+Veamos el siguiente ejemplo, se quiere calcular empiricamente la constante universal de los gases ($R$). Para eso se estudian 0.03 moles de $N_2$ confinados en un piston con embolo movil en un bano de agua a 25 C. Se comprime el embolo reduciendo el volumen y se mide la presion del gas. La temperatura se mantiene constante durante todo el experimento. Los resultados obtenidos se muestran en la Tabla 2.
+
+Tabla 2. Medidas de presion correspondientes a distintos volumenes para 0.3 mol de $N_2$ a 25 C.
+
+| P(torr) | V(mL) |
+| ------- | ----- |
+| 570     | 1000  |
+| 676     | 800   |
+| 745     | 700   |
+| 973     | 600   |
+| 1170    | 500   |
+| 1315    | 400   |
+| 1748    | 300   |
+| 2698    | 200   |
+
+
+
+Graficar P vs V en este caso, no nos sirve para obtener la informacion requerida. Sabemos que para gases a bajas presiones y temperaturas moderas, el modelo del gas ideal es por lo general adecuado. En la Ec. 3 se muestra la ley de estado para un gas ideal.
+
+$PV=RnT$ (3)
+
+Podrian estar tentados a calcular para cada fila con la ecuacion anteriro el valor de R. Debido al error experimental en la medida obtendremos distintos valores de R para cada fila que luego podriamos promediar para obtener un valor de R para toda la experiencia. Sin embargo esto no es lo mejor que podemos hacer.
+
+Podemos reorganizar la Ec. 3 de manera para mostrar la dependencia de la presion con el volumen a T y n constantes (Ec. 4):
+
+$P=frac{RnT}{V}$ (4)
+
+O lo que es lo mismo (Ec. 5):
+
+$P=RnTfrac{1}{V}$ (4)
+
+En la Ec 4 resulta evidente que la relacion entre P y V no es lineal, un grafico de P vs V lo comprueba (Fig. 3)
+
+
 
 
 
