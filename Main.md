@@ -120,13 +120,74 @@ $P=frac{RnT}{V}$ (4)
 
 O lo que es lo mismo (Ec. 5):
 
-$P=RnTfrac{1}{V}$ (4)
+$P=RnTfrac{1}{V}$ (5)
 
 En la Ec 4 resulta evidente que la relacion entre P y V no es lineal, un grafico de P vs V lo comprueba (Fig. 3)
 
 ![pv](fig/pv.png)
 
-Figura 3. Variacion de la presion con el volumen para 0.3 mol de $N_2$ a 25 C.
+Figura 3. Variacion de la presion con el volumen para 0.03 mol de $N_2$ a 25 C.
+
+Sin embargo, la Ec. 5 muestra que P es proporcional a 1/V, es decir que si graficamos P vs 1/V deberiamos obtener puntos que puedan ser ajustados por regresion lineal como hicimos antes.
+
+Antes de proceder vamos a hacer una aclaracion sobre las unidades. El analisis dimensional (estudio de las unidades usadas) es imprescindible para el desarrollo de la actividad cientifica. Debemos tener especial cuidado en utilizar unidades que sean compatibles entre. En este caso particular vemos que la presion fue medida en *torr* y el volumen esta dado en *mL*. Si queremos obtener R con las unidades habituales ($atm L K^{-1 }mol^{-1}$) debemos convertir las presiones a atm y los volumenes a L.
+
+Para hacer este tipo de cálculos (o muchos otros como calculos de inversas, logaritmos, conversion de unidades, etc) que debemos aplicar a un set de datos es altamente recomendable el uso de funciones que pueden ser usadas en las hojas de calculo. Para eso deberemos aprender la sintaxis especifica del software que estemos utilizando. En Excel y en Calc (la hoja de calculo de Libre Office) basta con poner en una celda `=`seguido del nombre de la funcion, a continucacion se muestran un par de ejemplos.
+
+`=average('datos')`para calcular el promedio
+
+`=desvesta('datos')`para calcular la desviacion estandar
+
+`=1/A1`para calcular la inversa de la celda A1
+
+
+
+En la Tabla 3 se muestran los valores de las variables en unidades compatibles con las unidades abituales de R
+
+
+
+Tabla 3. Variables transformadas con unidades compatibles.
+
+| P(atm) | V(L) | 1/V ($L^{-1}$) |
+| ------ | ---- | -------------- |
+| 0.75   | 1    | 1.0            |
+| 0.89   | 0.8  | 1.3            |
+| 0.98   | 0.7  | 1.4            |
+| 1.28   | 0.6  | 1.7            |
+| 1.54   | 0.5  | 2.0            |
+| 1.73   | 0.4  | 2.5            |
+| 2.3    | 0.3  | 3.3            |
+| 3.55   | 0.2  | 5.0            |
+
+
+
+Ahora si graficando P vs 1/v obtenemos el grafico que se muestra en la Fig. 4. Los datos muestran una recta perfecto debido al error experimental. 
+
+![p1v](p1v.png)
+
+Figura 4. Dependecia lineal de P con la inversa del volumen.
+
+
+
+La Ec. 5 muestra que luego de obtener la recta que mejor se ajusta a los puntos representados en Fig. 4 puede obtener el valor de R de la siguiente manera:
+
+$R=frac{m}{nT}$ (6)
+
+Donde $m$ es el valor de la pendiente y n y T son el numero de moles y la temperatura respectivamente.
+
+En la Fig. 5 se muestra el ajuste lineal realizado con el valor de los paramatros obtenidos.
+
+![p1vreg](p1vreg.png)
+
+Figura 5. Ajuste lineal realizado sobre datos de variacion de presion y volumen para 0.03 mol de $N_2$ a 25C.
+
+Sustituyendo el valor de la pendiente en la Ec. 5 obtenemos:
+
+$R=0.078 atm L K^{-1} mol{-1}$ (5)
+
+Las diferencias repecto al valor tabulado para R se deben al error experimental. Estrictamente hablando deberiamos reportar nuestra medida con su intervalo de confianza, pero ese tema escapa al alcance de este articulo. Solamente se quiere ilustrar con este ejemplo como los modelos teoricos pueden ser utilizados para analizar datos experimentales y obtener informacion util para el cientifique.
+
+
 
 
 
