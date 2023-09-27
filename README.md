@@ -124,7 +124,9 @@ $P=RnTfrac{1}{V}$ (4)
 
 En la Ec 4 resulta evidente que la relacion entre P y V no es lineal, un grafico de P vs V lo comprueba (Fig. 3)
 
+![pv](fig/pv.png)
 
+Figura 3. Variacion de la presion con el volumen para 0.3 mol de $N_2$ a 25 C.
 
 
 
