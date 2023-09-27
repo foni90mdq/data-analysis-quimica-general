@@ -183,7 +183,7 @@ Figura 5. Ajuste lineal realizado sobre datos de variacion de presion y volumen 
 
 Sustituyendo el valor de la pendiente en la Ec. 5 obtenemos:
 
-$R=0.078 atm L K^{-1} mol{-1}$ (5)
+$R=0.078 atm L K^{-1} mol^{-1}$ (5)
 
 Las diferencias repecto al valor tabulado para R se deben al error experimental. Estrictamente hablando deberiamos reportar nuestra medida con su intervalo de confianza, pero ese tema escapa al alcance de este articulo. Solamente se quiere ilustrar con este ejemplo como los modelos teoricos pueden ser utilizados para analizar datos experimentales y obtener informacion util para el cientifique.
 
