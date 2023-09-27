@@ -69,7 +69,7 @@ Hay dos variables estudiadas, **T** y **s**. Lasvariables dependientes son las q
 
 Cuando queremos graficar dos variables es usual poner la independiente en el eje x y la dependiente en el eje y como se muestra en la Fig. 1.
 
-![solubilidad](/Users/4478019/Documents/GitHub/data-analysis-quimica-general/fig/solubilidad.png)
+![solubilidad](fig/solubilidad.png)
 
 Figura 1. Variacion de la solubilidad del NaCl con la temperatura.
 
