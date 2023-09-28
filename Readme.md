@@ -40,7 +40,7 @@ Algunas alternativas a los programas mencionados anteriormente son las siguiente
 
 Todos los programas mencionados en la lista anterior son muy utiles y es recomendable que los chequeen, sin embargo la curva de aprendizaje sobre todo para aquellos que no tienen interfase grafica (R, Python, Gnuplot) puede ser un poco empinada al comienzo. R es uno de los lenguajes de programacion mas usado en todo el mundo para analisis y representacion de datos, en el siguiente [link](https://github.com/foni90mdq/introduccion-a-r.github.io) podran encontrar una introduccion aquellos que estén interesados.
 
-Para los trabajo practicos que desarrollaremos en Quimica General es suficiente con usar la suite Libre Office. Usaremos Calc (programa de hoja de calculo alternativo a Excel) y Writer (programa de hoja de calculo alternativo a Excel).
+Para los trabajo practicos que desarrollaremos en Quimica General es suficiente con usar la suite Libre Office. Usaremos Calc (programa de hoja de calculo alternativo a Excel) y tambien veremos como utilizar el programa SciDavies.
 
 ## Ejemplo 1: Solubilidad
 
@@ -69,7 +69,7 @@ Hay dos variables estudiadas, **T** y **s**. Lasvariables dependientes son las q
 
 Cuando queremos graficar dos variables es usual poner la independiente en el eje x y la dependiente en el eje y como se muestra en la Fig. 1.
 
-![solubilidad](fig/solubilidad.png)
+![solubilidad](fig/sol.svg)
 
 Figura 1. Variacion de la solubilidad del NaCl con la temperatura.
 
@@ -77,13 +77,13 @@ En este primer ejemplo pueden verse algunos espectos que es importante tener en 
 
 Cuando se presentan graficos en los que queremos mostrar la relacion entre dos variable numericas continuas como en este caso, el tipo mas usual utilizado es el grafico de *dispersión*, en el que cada punto representa uno de los datos obtenidos. Como regla general no deben unirse los puntos con lineas segmentadas. El area donde los datos esta graficados debe ocupar un porcentaje grande del area disponible y la escala de los ejes debe ser adecuada y los mismos deben poseer el nombre de la variable representada con su unidad correspondiente. El tamano de la fuente utilizada para ejes y escalas debe ser apropiada para que puedan leerse con facilidad en el documento terminado.
 
-Como se ve que los datos parecen ajustarse bastante bien a una correcta, podemos hacer una regresion lineal para conocer la funcion lineal que mejor se ajusta a los datosobtenidos. Esta operacion puede hacerse muy facilmente con los programas antes mencionados. En este ejemplo continuaremos usando el Calc de Libre Office (Fig. 2).
+Como se ve que los datos parecen ajustarse bastante bien a una correcta, podemos hacer una regresion lineal para conocer la funcion lineal que mejor se ajusta a los datosobtenidos. Esta operacion puede hacerse muy facilmente con los programas antes mencionados (Fig. 2).
 
-![regresion](fig/regresion1.png)
+![regresion](fig/sol-reg.svg)
 
 Figura 2. Ajuste de regresion lineal (linea roja) sobre los datos de solubilidad obtenidos a distintas temperaturas.
 
-Vemos que el $R^2$ es muy cercano a uno por lo que podemos decir que el ajuste lineal es adecuado. Aunque presentamos la ecuacion y el $R^2$ en la Fig. 2 es adecuado escribir la funcion obtenido como una ecuacion presentada en el cuerpo del texto (Ec. 2).
+Vemos que el $R^2=0.999$ es muy cercano a uno por lo que podemos decir que el ajuste lineal es adecuado. Aunque  veces se presenta la ecuacion y el $R^2$ en la Fig. 2 es adecuado escribir la funcion obtenido como una ecuacion presentada en el cuerpo del texto (Ec. 2).
 
 $s=0.038 T+35.33$ (2)
 
@@ -124,7 +124,9 @@ $P=RnT\frac{1}{V}$ (5)
 
 En la Ec 4 resulta evidente que la relacion entre P y V no es lineal, un grafico de P vs V lo comprueba (Fig. 3)
 
-![pv](fig/pv.png)
+![pv](fig/pv.svg)
+
+
 
 Figura 3. Variacion de la presion con el volumen para 0.03 mol de $N_2$ a 25 C.
 
@@ -163,7 +165,7 @@ Tabla 3. Variables transformadas con unidades compatibles.
 
 Ahora si graficando P vs 1/v obtenemos el grafico que se muestra en la Fig. 4. Los datos muestran una recta perfecto debido al error experimental. 
 
-![p1v](p1v.png)
+![p1v](fig/p1v.svg)
 
 Figura 4. Dependecia lineal de P con la inversa del volumen.
 
@@ -177,11 +179,11 @@ Donde $m$ es el valor de la pendiente y n y T son el numero de moles y la temper
 
 En la Fig. 5 se muestra el ajuste lineal realizado con el valor de los paramatros obtenidos.
 
-![p1vreg](p1vreg.png)
+![p1vreg](fig/p1v-reg.svg)
 
 Figura 5. Ajuste lineal realizado sobre datos de variacion de presion y volumen para 0.03 mol de $N_2$ a 25C.
 
-Sustituyendo el valor de la pendiente en la Ec. 5 obtenemos:
+La pendiente obtenida es $m=0.6942$, sustituyendo este valor en la Ec. 5 obtenemos:
 
 $R=0.078 atm L K^{-1} mol^{-1}$ (5)
 

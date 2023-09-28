@@ -1,0 +1,87 @@
+SciDAVis 2.7.1 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+2373
+<table creation_time="2023-28-09 12:06:12:000" caption_spec="%n%C{ - }%c" name="Table1" columns="2" rows="30"><comment><![CDATA[]]></comment><column creation_time="2023-28-09 12:06:12:714" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2023-28-09 12:06:12:715" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2023-28-09 12:06:12:715" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e+01</row><row type="TypeDouble" index="2" invalid="no">4.0000000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">6.0000000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">8.0000000000000000e+01</row><row type="TypeDouble" index="5" invalid="no">1.0000000000000000e+02</row></column><column creation_time="2023-28-09 12:06:12:715" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2023-28-09 12:06:12:715" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2023-28-09 12:06:12:715" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">3.5200000000000003e+01</row><row type="TypeDouble" index="1" invalid="no">3.6100000000000001e+01</row><row type="TypeDouble" index="2" invalid="no">3.7000000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">3.7700000000000003e+01</row><row type="TypeDouble" index="4" invalid="no">3.8399999999999999e+01</row><row type="TypeDouble" index="5" invalid="no">3.9000000000000000e+01</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width></table>
+geometry	0	0	695	484	
+
+</table>
+<multiLayer>
+Graph1	1	1	Thursday, September 28, 2023 12:06:25 PM EDT
+geometry	767	35	662	522	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	437	273
+Alignement	0	0
+<graph>
+ggeometry	5	5	650	463
+PlotTitle		#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#d8000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	T(°C)	Solubilidad (gNaCl/100g H<sub>2</sub>0)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	.AppleSystemUIFont	20	75	0	0	0
+ScaleFont0	.AppleSystemUIFont	19	75	0	0	0
+ScaleFont1	.AppleSystemUIFont	18	75	0	0	0
+ScaleFont2	.AppleSystemUIFont	19	75	0	0	0
+ScaleFont3	.AppleSystemUIFont	18	75	0	0	0
+AxisFont0	.AppleSystemUIFont	18	50	0	0	0
+AxisFont1	.AppleSystemUIFont	18	50	0	0	0
+AxisFont2	.AppleSystemUIFont	18	50	0	0	0
+AxisFont3	.AppleSystemUIFont	18	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#d8000000	#d8000000	#d8000000	#d8000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table1_1	Table1_2	1	0	#ff000000	0	1	11	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
+FunctionCurve	0,LinearFit1,x,0,100	2			0	1	#ffff0000	0	2	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	46098688	24576	1
+<formula>
+B=35.3333333333333
+A=0.038
+
+A*x+B
+</formula>
+scale	0	35	40	0	8	5	0	0
+scale	1	35	40	0	8	5	0	0
+scale	2	-20	120	0	8	5	0	0
+scale	3	-20	120	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<log>
+[Thursday, September 28, 2023 12:13:50 PM EDT	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table1_2, using function: A*x+B
+Y standard errors: Unknown
+From x = 0 to x = 100
+B (y-intercept) = 35.3333333333333 +/- 0.0924962461700772
+A (slope) = 0.038 +/- 0.00152752523165194
+--------------------------------------------------------------------------------------
+Chi^2 = 0.065333333333333
+R^2 = 0.999992155073386
+---------------------------------------------------------------------------------------
+[Thursday, September 28, 2023 3:47:11 PM EDT	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table1_2, using function: A*x+B
+Y standard errors: Unknown
+From x = 0 to x = 100
+B (y-intercept) = 35.3333333333333 +/- 0.0924962461700772
+A (slope) = 0.038 +/- 0.00152752523165194
+--------------------------------------------------------------------------------------
+Chi^2 = 0.065333333333333
+R^2 = 0.999992155073386
+---------------------------------------------------------------------------------------
+</log>
