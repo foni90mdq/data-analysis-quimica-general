@@ -48,7 +48,7 @@ Queremos investigar como varía la solubilidad del NaCl con la temperatura. Se p
 
 Tabla 1. Solubilidad de NaCl obtenida a distintas temperaturas.
 
-| Muestra | Temperatura (C) | Solubilidad (g NaCl/100 g water) |
+| Muestra | Temperatura (C) | Solubilidad (g NaCl/100 g $H_2O$) |
 | ------- | --------------- | -------------------------------- |
 | 1       | 0.00            | 35.2                             |
 | 2       | 20.0            | 36.1                             |
