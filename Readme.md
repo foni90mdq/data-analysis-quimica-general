@@ -56,7 +56,7 @@ Todos los programas mencionados en la lista anterior son muy útiles y es recome
 
 Para los trabajo prácticos que desarrollaremos en Química General es suficiente con usar la suite Libre Office. Usaremos Calc (programa de hoja de cálculo alternativo a Excel). También veremos como utilizar el programa SciDavis, una muy buena alternativa libre al Origin Lab. Si bien programas como el Calc o el Excel permiten hacer gráficos que para este nivel son suficientes, SciDavis (al igual que Origin Lab) está específicamente desarrollado para el analisis y la representación de datos científicos, por lo que posee una gran variedad de opciones que no están disponibles en las hojas de cálculo tradicionales. 
 
-### Guia de instalación de SciDavies
+### Guía de instalación de SciDavies
 
 [Aquí](Scidavis.md) podrán encontrar un pequeño tutorial para la instalación y primeros pasos de SciDavis.
 
