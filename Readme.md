@@ -1,4 +1,4 @@
-# Introducción al análisis y representación de datos para Química General e Inorgánica
+# Introducción al análisis y representación de datos para Química General
 
 ## La importancia del análisis de datos
 
@@ -150,7 +150,7 @@ En la Tabla 3 se muestran los valores de las variables en unidades compatibles c
 
 Tabla 3. Variables transformadas con unidades compatibles.
 
-| P(atm) | V(L) | 1/V ($L^{-1}$) |
+| P(atm) | V(L) | $V^{-1}$ ($L^{-1}$) |
 | ------ | ---- | -------------- |
 | 0.75   | 1    | 1.0            |
 | 0.89   | 0.8  | 1.3            |
