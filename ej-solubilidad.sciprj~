@@ -28,13 +28,13 @@ AxesTitles	T(°C)	Solubilidad (gNaCl/100g H<sub>2</sub>0)
 AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
 AxesTitleAlignment	4	4	4	4
 TitleFont	.AppleSystemUIFont	20	75	0	0	0
-ScaleFont0	.AppleSystemUIFont	19	75	0	0	0
+ScaleFont0	.AppleSystemUIFont	14	75	0	0	0
 ScaleFont1	.AppleSystemUIFont	18	75	0	0	0
-ScaleFont2	.AppleSystemUIFont	19	75	0	0	0
+ScaleFont2	.AppleSystemUIFont	14	75	0	0	0
 ScaleFont3	.AppleSystemUIFont	18	75	0	0	0
-AxisFont0	.AppleSystemUIFont	18	50	0	0	0
+AxisFont0	.AppleSystemUIFont	14	50	0	0	0
 AxisFont1	.AppleSystemUIFont	18	50	0	0	0
-AxisFont2	.AppleSystemUIFont	18	50	0	0	0
+AxisFont2	.AppleSystemUIFont	14	50	0	0	0
 AxisFont3	.AppleSystemUIFont	18	50	0	0	0
 EnabledTickLabels	1	1	1	1	
 AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
@@ -42,7 +42,7 @@ AxesNumberColors	#d8000000	#d8000000	#d8000000	#d8000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffffff	255
 curve	Table1_1	Table1_2	1	0	#ff000000	0	1	11	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
-FunctionCurve	0,LinearFit1,x,0,100	2			0	1	#ffff0000	0	2	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	46098688	24576	1
+FunctionCurve	0,LinearFit1,x,0,100	2			0	1	#ffff0000	0	2	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	39994560	24576	1
 <formula>
 B=35.3333333333333
 A=0.038
@@ -75,6 +75,26 @@ Chi^2 = 0.065333333333333
 R^2 = 0.999992155073386
 ---------------------------------------------------------------------------------------
 [Thursday, September 28, 2023 3:47:11 PM EDT	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table1_2, using function: A*x+B
+Y standard errors: Unknown
+From x = 0 to x = 100
+B (y-intercept) = 35.3333333333333 +/- 0.0924962461700772
+A (slope) = 0.038 +/- 0.00152752523165194
+--------------------------------------------------------------------------------------
+Chi^2 = 0.065333333333333
+R^2 = 0.999992155073386
+---------------------------------------------------------------------------------------
+[Thursday, September 28, 2023 9:46:19 PM EDT	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table1_2, using function: A*x+B
+Y standard errors: Unknown
+From x = 0 to x = 100
+B (y-intercept) = 35.3333333333333 +/- 0.0924962461700772
+A (slope) = 0.038 +/- 0.00152752523165194
+--------------------------------------------------------------------------------------
+Chi^2 = 0.065333333333333
+R^2 = 0.999992155073386
+---------------------------------------------------------------------------------------
+[Thursday, September 28, 2023 9:47:26 PM EDT	Plot: ''Graph1'']
 Linear Regression fit of dataset: Table1_2, using function: A*x+B
 Y standard errors: Unknown
 From x = 0 to x = 100
