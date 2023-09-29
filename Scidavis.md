@@ -19,6 +19,7 @@ Los gráficos que creemos irán apareciendo en pantallas nuevas, por otro lado l
 Los datos pueden ingresarse a mano o pueden importarse desde otro archivo, dejaremos la importación de archivos para estudiar más tarde.
 
 Ingresemos los datos en la tabla de la siguiente manera:
+
 ![](fig/ventas.png)
 
 Podemos cambiar los nombres de las columnas haciendo click en el encabezado de las mismas, tambien podemos editar las propiedades de las columnas en el panel de la derecha:
