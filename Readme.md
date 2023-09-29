@@ -1,5 +1,17 @@
 # Introducción al análisis y representación de datos para Química General
 
+
+
+Para consultas o sugerencias: pepealfonso22@gmail.com
+
+
+
+  * [La importancia del análisis de datos](#la-importancia-del-análisis-de-datos)
+  * [Informática](#informática)
+  * [Guía de instalación de SciDavies](#guía-de-instalción-de-scidavies)
+  * [Ejemplo 1: solubilidad](#ejemplo-1:-solubilidad)
+  * [Transformaciones de datos y modelado](#transformaciones-de-datos-y-modelado)
+
 ## La importancia del análisis de datos
 
 Simplificando bastante la cuestión podemos decir que la labor científica tiene como partes esenciales las siguientes etapas:
@@ -40,14 +52,18 @@ Algunas alternativas a los programas mencionados anteriormente son las siguiente
 
 Todos los programas mencionados en la lista anterior son muy útiles y es recomendable que los chequeen, sin embargo la curva de aprendizaje sobre todo para aquellos que no tienen interfaz gráfica (R, Python, Gnuplot) puede ser un poco empinada al comienzo. R es uno de los lenguajes de programación más usado en todo el mundo para análisis y representación de datos. En el siguiente [link](https://github.com/foni90mdq/introduccion-a-r.github.io) podrán encontrar una introducción aquellos que estén interesados.
 
-Para los trabajo prácticos que desarrollaremos en Química General es suficiente con usar la suite Libre Office. Usaremos Calc (programa de hoja de cálculo alternativo a Excel). También veremos como utilizar el programa SciDavis, una muy buena alternativa libre al Origin Lab. Si bien programas como el Calc o el Excel permiten hacer gráficos que para este nivel son suficientes, SciDavis (al igual que Origin Lab) está específicamente desarrollado para el analisis y la representación de datos científicos, por lo que posee una gran variedad de opciones que no están disponibles en las hojas de cálculo tradicionales. [Aquí](Scidavis.md) podrán encontrar un pequeño tutorial para la instalación y primeros pasos de SciDavis.
+Para los trabajo prácticos que desarrollaremos en Química General es suficiente con usar la suite Libre Office. Usaremos Calc (programa de hoja de cálculo alternativo a Excel). También veremos como utilizar el programa SciDavis, una muy buena alternativa libre al Origin Lab. Si bien programas como el Calc o el Excel permiten hacer gráficos que para este nivel son suficientes, SciDavis (al igual que Origin Lab) está específicamente desarrollado para el analisis y la representación de datos científicos, por lo que posee una gran variedad de opciones que no están disponibles en las hojas de cálculo tradicionales. 
+
+### Guia de instalación de SciDavies
+
+[Aquí](Scidavis.md) podrán encontrar un pequeño tutorial para la instalación y primeros pasos de SciDavis.
 
 
 ## Ejemplo 1: Solubilidad
 
 Queremos investigar como varía la solubilidad del NaCl con la temperatura. Se preparan soluciones saturadas de NaCl a distinta temperatura y se mide su concentración. Los datos obtenidos son los que se muestran en la Tabla 1.
 
-Tabla 1. Solubilidad de NaCl obtenida a distintas temperaturas.
+**Tabla 1**. Solubilidad de NaCl obtenida a distintas temperaturas.
 
 | Muestra | Temperatura (C) | Solubilidad (g NaCl/100 g $H_2O$) |
 | ------- | --------------- | -------------------------------- |
@@ -72,7 +88,7 @@ Cuando queremos graficar dos variables, es usual que la variable independiente s
 
 ![solubilidad](fig/sol.svg)
 
-Figura 1. Variación de la solubilidad del NaCl con la temperatura.
+**Figura 1.** Variación de la solubilidad del NaCl con la temperatura.
 
 En este primer ejemplo pueden verse algunos aspectos importantes a tener en cuenta a la hora de hacer una figura para un informe o un artículo científico. Todas las figuras (y también las tablas) deben tener un título (pueden también poseer una descripción breve) y deben estar referidas en el texto de forma similar a como se hizo aqui.
 
@@ -82,7 +98,7 @@ Como se ve que los datos parecen ajustarse bastante bien a una recta, podemos ha
 
 ![regresion](fig/sol-reg.svg)
 
-Figura 2. Ajuste de regresión lineal (línea roja) sobre los datos de solubilidad obtenidos a distintas temperaturas.word
+**Figura 2.** Ajuste de regresión lineal (línea roja) sobre los datos de solubilidad obtenidos a distintas temperaturas.word
 
 Vemos que el valor de $R^2=0.999$ es muy cercano a 1, por lo que podemos decir que el ajuste lineal es adecuado. Aunque a veces se presenta la ecuación y el $R^2$ en la Fig. 2, es adecuado escribir la función obtenida como una ecuación presentada en el cuerpo del texto (Ec. 2).
 
@@ -94,7 +110,7 @@ En algunos casos, de la gráfica directa de los datos crudos no puede obtenerse 
 
 Veamos el siguiente ejemplo, se quiere calcular empíricamente la constante universal de los gases ($R$). Para eso se estudian 0.03 moles de $N_2$ confinados en un pistón con émbolo móvil en un baño de agua a 25 C. Se comprime el émbolo reduciendo el volumen y se mide la presión del gas. La temperatura se mantiene constante durante todo el experimento. Los resultados obtenidos se muestran en la Tabla 2.
 
-Tabla 2. Medidas de presión correspondientes a distintos volúmenes para 0.3 mol de $N_2$ a 25 C.
+**Tabla 2.** Medidas de presión correspondientes a distintos volúmenes para 0.3 mol de $N_2$ a 25 C.
 
 | P(torr) | V(mL) |
 | ------- | ----- |
@@ -129,7 +145,7 @@ En la Ec 4 resulta evidente que la relación entre P y V no es lineal, un gráfi
 
 
 
-Figura 3. Variación de la presión con el volumen para 0.03 mol de $N_2$ a 25 C.
+**Figura 3.** Variación de la presión con el volumen para 0.03 mol de $N_2$ a 25 C.
 
 Sin embargo, la Ec. 5 muestra que P es proporcional a 1/V, es decir que si graficamos P vs 1/V deberíamos obtener puntos que puedan ser ajustados por regresión lineal como hicimos antes.
 
@@ -149,7 +165,7 @@ En la Tabla 3 se muestran los valores de las variables en unidades compatibles c
 
 
 
-Tabla 3. Variables transformadas con unidades compatibles.
+**Tabla 3.** Variables transformadas con unidades compatibles.
 
 | P(atm) | V(L) | $V^{-1}$ ($L^{-1}$) |
 | ------ | ---- | -------------- |
@@ -168,7 +184,7 @@ Ahora si, graficando P vs 1/V obtenemos el gráfico que se muestra en la Fig. 4.
 
 ![p1v](fig/p1v.svg)
 
-Figura 4. Dependencia lineal de la presión con la inversa del volumen.
+**Figura 4.** Dependencia lineal de la presión con la inversa del volumen.
 
 
 
@@ -182,7 +198,7 @@ En la Fig. 5 se muestra el ajuste lineal realizado con el valor de los parámaer
 
 ![p1vreg](fig/p1v-reg.svg)
 
-Figura 5. Ajuste lineal realizado sobre datos de variación de presión y volumen para 0.03 mol de $N_2$ a 25C.
+**Figura 5.** Ajuste lineal realizado sobre datos de variación de presión y volumen para 0.03 mol de $N_2$ a 25C.
 
 La pendiente obtenida es $m=0.6942$. Sustituyendo este valor en la Ec. 5 obtenemos:
 
