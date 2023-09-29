@@ -8,7 +8,7 @@ Para consultas o sugerencias: pepealfonso22@gmail.com
 
   * [La importancia del análisis de datos](#la-importancia-del-análisis-de-datos)
   * [Informática](#informática)
-  * [Guía de instalación de SciDavies](#guía-de-instalción-de-scidavies)
+  * [Guía de instalación de SciDavies](https://github.com/foni90mdq/data-analysis-quimica-general/blob/main/Scidavis.md)
   * [Un ejemplo de solubilidad](#Un-ejemplo-de-solubilidad)
   * [Transformaciones de datos y modelado](#transformaciones-de-datos-y-modelado)
   * [Un ejemplo de gases](#Un-ejemplo-de-gases)
@@ -54,11 +54,7 @@ Algunas alternativas a los programas mencionados anteriormente son las siguiente
 
 Todos los programas mencionados en la lista anterior son muy útiles y es recomendable que los chequeen, sin embargo la curva de aprendizaje sobre todo para aquellos que no tienen interfaz gráfica (R, Python, Gnuplot) puede ser un poco empinada al comienzo. R es uno de los lenguajes de programación más usado en todo el mundo para análisis y representación de datos. En el siguiente [link](https://github.com/foni90mdq/introduccion-a-r.github.io) podrán encontrar una introducción aquellos que estén interesados.
 
-Para los trabajo prácticos que desarrollaremos en Química General es suficiente con usar la suite Libre Office. Usaremos Calc (programa de hoja de cálculo alternativo a Excel). También veremos como utilizar el programa SciDavis, una muy buena alternativa libre al Origin Lab. Si bien programas como el Calc o el Excel permiten hacer gráficos que para este nivel son suficientes, SciDavis (al igual que Origin Lab) está específicamente desarrollado para el analisis y la representación de datos científicos, por lo que posee una gran variedad de opciones que no están disponibles en las hojas de cálculo tradicionales. 
-
-### Guía de instalación de SciDavies
-
-[Aquí](Scidavis.md) podrán encontrar un pequeño tutorial para la instalación y primeros pasos de SciDavis.
+Para los trabajo prácticos que desarrollaremos en Química General es suficiente con usar la suite Libre Office. Usaremos Calc (programa de hoja de cálculo alternativo a Excel). También veremos como utilizar el programa SciDavis, una muy buena alternativa libre al Origin Lab. Si bien programas como el Calc o el Excel permiten hacer gráficos que para este nivel son suficientes, SciDavis (al igual que Origin Lab) está específicamente desarrollado para el analisis y la representación de datos científicos, por lo que posee una gran variedad de opciones que no están disponibles en las hojas de cálculo tradicionales. [Aquí](Scidavis.md) podrán encontrar un pequeño tutorial para la instalación y primeros pasos de SciDavis.
 
 
 ## Un ejemplo de solubilidad
