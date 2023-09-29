@@ -1,22 +1,22 @@
-# Introduccion al analisis y representacion de datos para Quimica General e Inorgánica
+# Introducción al análisis y representación de datos para Química General e Inorgánica
 
-## La importancia del analisis de datos
+## La importancia del análisis de datos
 
-Simplificando bastante la cuestion podemos decir que la labor cientifica tiene como partes escenciales las siguientes etapas:
+Simplificando bastante la cuestión podemos decir que la labor científica tiene como partes esenciales las siguientes etapas:
 
-1. Formulacion de Hipotesis.
-2. Diseno de experimentos.
-3. Recoleccion de datos crudos.
-4. Analisis y representacion de datos.
-5. Contrastacion de las hipotesis iniciales
+1. Formulación de Hipótesis.
+2. Diseño de experimentos.
+3. Recolección de datos crudos.
+4. Análisis y representación de datos.
+5. Contrastación de las hipótesis iniciales
 
-Nos centraremos aqui en el punto 4: "Analisis y representacion de datos". En la mayoria de los casos, de los experimentos que se realizan en el laboratorio no se obtienen directamente las respuestas a las preguntas de partida. Aun cuando los experimentos estan bien disenados es necesario tratar los datos crudos obtenidos de manera que puedan ser interpretados y utilizados para la contrastacion de hipotesis.
+Nos centraremos aquí en el punto 4: "Análisis y representación de datos". En la mayoría de los casos, de los experimentos que se realizan en el laboratorio no se obtienen directamente las respuestas a las preguntas de partida. Aún cuando los experimentos estan bien diseñados, es necesario tratar los datos crudos obtenidos de manera tal que puedan ser interpretados y utilizados para la contrastación de hipótesis.
 
-El tratamiendo de datos por lo general incluye la organización, filtrado y limpieza de los datos crudos; el analisis estadistico de la mismas (obtencion de promedios, desviaciones estandar, exclusion de puntos anomalos, etc); el modelado de los mismos, es decir el tratamiento matematico de los datos aplicando teorias previamente establecidas para la obtencion de distintos parametros; y la representacion gráfica de uno o mas de los pasos anteriores para facilitar la visualizacion y de los resultados obtenidos y la toma de decicion sobre que hacer respecto de nuestras hipotesis de partida.
+El tratamiendo de datos por lo general incluye la organización, filtrado y limpieza de los datos crudos; el análisis estadístico de los mismos (obtención de promedios, desviaciones estandar, exclusión de puntos anómalos, etc); el modelado, es decir el tratamiento matemático de los datos aplicando teorías previamente establecidas para la obtención de distintos parámetros; y la representación gráfica de uno o más de los pasos anteriores para facilitar la visualización de los resultados obtenidos y la toma de decisión sobre qué hacer respecto de nuestras hipótesis de partida.
 
-## Informatica
+## Informática
 
-Existen diversos softwares que poden asistir el tratamiento y la representacion de datos. Es importante destacar que las herramientas informaticas son solo eso, herramientas, y que nunca suplantaran un correcto entedimiento de las teorias necesarias para interpretar los datos obtenidos y sacar conclusiones de los mismos. Sin embargo habiendo dicho esto, es altamente recomendable aprender a usar estas herramientas porque pueden ahorrarnos mucho tiempo y esfuerzo en nuestros projectos. Con ayuda de estos programas pueden hacerse análisis  que serian imposibles de hacer sin el uso de computadoras. La ciencia de datos es una disciplina en auge que aborda todos estos temas, nosotros aca vamos simplemente a dar algunos lineamientos introductorios sobre como analzar conjuntos pequenos de datos, similares a los que podemos obtener durante los trabajos practicos de laboratorio.
+Existen diversos softwares que pueden asistir el tratamiento y la representación de datos. Es importante destacar que las herramientas informáticas son solo eso, herramientas, y que nunca suplantarán un correcto entedimiento de las teorías necesarias para interpretar los datos obtenidos y sacar conclusiones de los mismos. Sin embargo habiendo dicho esto, es altamente recomendable aprender a usar estas herramientas porque pueden ahorrarnos mucho tiempo y esfuerzo en nuestros projectos. Con ayuda de estos programas pueden hacerse análisis  que serian imposibles de hacer sin el uso de computadoras. La ciencia de datos es una disciplina en auge que aborda todos estos temas, nosotros aca vamos simplemente a dar algunos lineamientos introductorios sobre como analzar conjuntos pequenos de datos, similares a los que podemos obtener durante los trabajos practicos de laboratorio.
 
 El software puede clasificarse en dos grandes categorías considerando el tipo de licencias que posee: privativo o libre.
 
