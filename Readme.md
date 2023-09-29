@@ -11,6 +11,7 @@ Para consultas o sugerencias: pepealfonso22@gmail.com
   * [Guía de instalación de SciDavies](#guía-de-instalción-de-scidavies)
   * [Ejemplo 1: solubilidad](#ejemplo-1:-solubilidad)
   * [Transformaciones de datos y modelado](#transformaciones-de-datos-y-modelado)
+  * [Introducción a R, un gran software libre para analisis y representacion de datos](https://github.com/foni90mdq/introduccion-a-r.github.io)
 
 ## La importancia del análisis de datos
 
