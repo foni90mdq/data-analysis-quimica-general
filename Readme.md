@@ -9,8 +9,9 @@ Para consultas o sugerencias: pepealfonso22@gmail.com
   * [La importancia del análisis de datos](#la-importancia-del-análisis-de-datos)
   * [Informática](#informática)
   * [Guía de instalación de SciDavies](#guía-de-instalción-de-scidavies)
-  * [Ejemplo 1: solubilidad](#Un-ejemplo-de-solubilidad)
+  * [Un ejemplo de solubilidad](#Un-ejemplo-de-solubilidad)
   * [Transformaciones de datos y modelado](#transformaciones-de-datos-y-modelado)
+  * [Un ejemplo de gases](#Un-ejemplo-de-gases)
   * [Introducción a R, un gran software libre para analisis y representacion de datos](https://github.com/foni90mdq/introduccion-a-r.github.io)
 
 ## La importancia del análisis de datos
@@ -108,6 +109,8 @@ $s=0.038 T+35.33$ (2)
 ## Transformaciones de datos y modelado
 
 En algunos casos, de la gráfica directa de los datos crudos no puede obtenerse ninguna información interesante y es necesario primero transformar los datos (hacer cuentas) usando modelos (teorías, ecuaciones) conocidos que nos ayuden a transformar las variables en otras, y que puedan ser representadas gráficamente para obtener la información buscada.
+
+### Un ejemplo de gases
 
 Veamos el siguiente ejemplo, se quiere calcular empíricamente la constante universal de los gases ($R$). Para eso se estudian 0.03 moles de $N_2$ confinados en un pistón con émbolo móvil en un baño de agua a 25 C. Se comprime el émbolo reduciendo el volumen y se mide la presión del gas. La temperatura se mantiene constante durante todo el experimento. Los resultados obtenidos se muestran en la Tabla 2.
 
