@@ -70,7 +70,7 @@ Hay dos variables estudiadas, **T** y **s**. Las variables dependientes son las 
 
 Cuando queremos graficar dos variables, es usual que la variable independiente se coloque en el eje x y la dependiente en el eje y, como se muestra en la Fig. 1.
 
-![solubilidad](fig/sol.pdf)
+![solubilidad](fig/sol.svg)
 
 Figura 1. Variación de la solubilidad del NaCl con la temperatura.
 
@@ -80,7 +80,7 @@ Cuando se presentan gráficos en los que queremos mostrar la relación entre dos
 
 Como se ve que los datos parecen ajustarse bastante bien a una recta, podemos hacer una regresión lineal para conocer la función lineal que mejor se ajusta a los datos obtenidos. Esta operación puede hacerse muy fácilmente con los programas antes mencionados (Fig. 2).
 
-![regresion](fig/sol-reg.pdf)
+![regresion](fig/sol-reg.svg)
 
 Figura 2. Ajuste de regresión lineal (línea roja) sobre los datos de solubilidad obtenidos a distintas temperaturas.word
 
@@ -125,7 +125,7 @@ $P=RnT\frac{1}{V}$ (5)
 
 En la Ec 4 resulta evidente que la relación entre P y V no es lineal, un gráfico de P vs V lo comprueba (Fig. 3)
 
-![pv](fig/pv.pdf)
+![pv](fig/pv.svg)
 
 
 
@@ -166,7 +166,7 @@ Tabla 3. Variables transformadas con unidades compatibles.
 
 Ahora si, graficando P vs 1/V obtenemos el gráfico que se muestra en la Fig. 4. Los datos no muestran una recta perfecta debido al error experimental.
 
-![p1v](fig/p1v.pdf)
+![p1v](fig/p1v.svg)
 
 Figura 4. Dependencia lineal de la presión con la inversa del volumen.
 
@@ -180,7 +180,7 @@ Donde $m$ es el valor de la pendiente, y n y T son el número de moles y la temp
 
 En la Fig. 5 se muestra el ajuste lineal realizado con el valor de los parámaeros obtenidos.
 
-![p1vreg](fig/p1v-reg.pdf)
+![p1vreg](fig/p1v-reg.svg)
 
 Figura 5. Ajuste lineal realizado sobre datos de variación de presión y volumen para 0.03 mol de $N_2$ a 25C.
 

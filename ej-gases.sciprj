@@ -3,20 +3,20 @@ SciDAVis 2.7.1 project file
 <windows>	3
 <table>
 6671
-<table creation_time="2023-28-09 15:24:36:102" caption_spec="%n%C{ - }%c" name="Table1" columns="5" rows="30"><comment><![CDATA[]]></comment><column creation_time="2023-28-09 15:24:36:103" caption_spec="%n%C{ - }%c" name="V(mL)" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2023-28-09 15:24:36:103" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2023-28-09 15:24:36:103" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e+03</row><row type="TypeDouble" index="1" invalid="no">8.0000000000000000e+02</row><row type="TypeDouble" index="2" invalid="no">7.0000000000000000e+02</row><row type="TypeDouble" index="3" invalid="no">6.0000000000000000e+02</row><row type="TypeDouble" index="4" invalid="no">5.0000000000000000e+02</row><row type="TypeDouble" index="5" invalid="no">4.0000000000000000e+02</row><row type="TypeDouble" index="6" invalid="no">3.0000000000000000e+02</row><row type="TypeDouble" index="7" invalid="no">2.0000000000000000e+02</row></column><column creation_time="2023-28-09 15:24:36:102" caption_spec="%n%C{ - }%c" name="P(torr)" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2023-28-09 15:24:36:102" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2023-28-09 15:24:36:102" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">5.7000000000000000e+02</row><row type="TypeDouble" index="1" invalid="no">6.7600000000000000e+02</row><row type="TypeDouble" index="2" invalid="no">7.4500000000000000e+02</row><row type="TypeDouble" index="3" invalid="no">9.7300000000000000e+02</row><row type="TypeDouble" index="4" invalid="no">1.1700000000000000e+03</row><row type="TypeDouble" index="5" invalid="no">1.3150000000000000e+03</row><row type="TypeDouble" index="6" invalid="no">1.7480000000000000e+03</row><row type="TypeDouble" index="7" invalid="no">2.6980000000000000e+03</row></column><column creation_time="2023-28-09 15:26:10:002" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2023-28-09 15:26:10:002" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2023-28-09 15:26:10:002" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="7">(col(&quot;V(mL)&quot;))/1000</formula><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">8.0000000000000004e-01</row><row type="TypeDouble" index="2" invalid="no">6.9999999999999996e-01</row><row type="TypeDouble" index="3" invalid="no">5.9999999999999998e-01</row><row type="TypeDouble" index="4" invalid="no">5.0000000000000000e-01</row><row type="TypeDouble" index="5" invalid="no">4.0000000000000002e-01</row><row type="TypeDouble" index="6" invalid="no">2.9999999999999999e-01</row><row type="TypeDouble" index="7" invalid="no">2.0000000000000001e-01</row></column><column creation_time="2023-28-09 15:30:21:349" caption_spec="%n%C{ - }%c" name="3" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2023-28-09 15:30:21:349" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2023-28-09 15:30:21:350" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="7">1/col(&quot;1&quot;)</formula><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">1.2500000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">1.4285714285714286e+00</row><row type="TypeDouble" index="3" invalid="no">1.6666666666666667e+00</row><row type="TypeDouble" index="4" invalid="no">2.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">2.5000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">3.3333333333333335e+00</row><row type="TypeDouble" index="7" invalid="no">5.0000000000000000e+00</row></column><column creation_time="2023-28-09 15:26:53:398" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2023-28-09 15:26:53:398" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2023-28-09 15:26:53:399" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="7">col(&quot;P(torr)&quot;)/760</formula><row type="TypeDouble" index="0" invalid="no">7.5000000000000000e-01</row><row type="TypeDouble" index="1" invalid="no">8.8947368421052631e-01</row><row type="TypeDouble" index="2" invalid="no">9.8026315789473684e-01</row><row type="TypeDouble" index="3" invalid="no">1.2802631578947368e+00</row><row type="TypeDouble" index="4" invalid="no">1.5394736842105263e+00</row><row type="TypeDouble" index="5" invalid="no">1.7302631578947369e+00</row><row type="TypeDouble" index="6" invalid="no">2.2999999999999998e+00</row><row type="TypeDouble" index="7" invalid="no">3.5499999999999998e+00</row></column><column_width column="0">120</column_width><column_width column="1">217</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width><column_width column="4">120</column_width></table>
-geometry	21	8	695	484	
+<table creation_time="2023-28-09 15:24:36:000" caption_spec="%n%C{ - }%c" name="Table1" columns="5" rows="30"><comment><![CDATA[]]></comment><column creation_time="2023-28-09 15:24:36:103" caption_spec="%n%C{ - }%c" name="V(mL)" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2023-28-09 15:24:36:103" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2023-28-09 15:24:36:103" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e+03</row><row type="TypeDouble" index="1" invalid="no">8.0000000000000000e+02</row><row type="TypeDouble" index="2" invalid="no">7.0000000000000000e+02</row><row type="TypeDouble" index="3" invalid="no">6.0000000000000000e+02</row><row type="TypeDouble" index="4" invalid="no">5.0000000000000000e+02</row><row type="TypeDouble" index="5" invalid="no">4.0000000000000000e+02</row><row type="TypeDouble" index="6" invalid="no">3.0000000000000000e+02</row><row type="TypeDouble" index="7" invalid="no">2.0000000000000000e+02</row></column><column creation_time="2023-28-09 15:24:36:102" caption_spec="%n%C{ - }%c" name="P(torr)" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2023-28-09 15:24:36:102" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2023-28-09 15:24:36:102" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">5.7000000000000000e+02</row><row type="TypeDouble" index="1" invalid="no">6.7600000000000000e+02</row><row type="TypeDouble" index="2" invalid="no">7.4500000000000000e+02</row><row type="TypeDouble" index="3" invalid="no">9.7300000000000000e+02</row><row type="TypeDouble" index="4" invalid="no">1.1700000000000000e+03</row><row type="TypeDouble" index="5" invalid="no">1.3150000000000000e+03</row><row type="TypeDouble" index="6" invalid="no">1.7480000000000000e+03</row><row type="TypeDouble" index="7" invalid="no">2.6980000000000000e+03</row></column><column creation_time="2023-28-09 15:26:10:002" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2023-28-09 15:26:10:002" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2023-28-09 15:26:10:002" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="7">(col(&quot;V(mL)&quot;))/1000</formula><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">8.0000000000000004e-01</row><row type="TypeDouble" index="2" invalid="no">6.9999999999999996e-01</row><row type="TypeDouble" index="3" invalid="no">5.9999999999999998e-01</row><row type="TypeDouble" index="4" invalid="no">5.0000000000000000e-01</row><row type="TypeDouble" index="5" invalid="no">4.0000000000000002e-01</row><row type="TypeDouble" index="6" invalid="no">2.9999999999999999e-01</row><row type="TypeDouble" index="7" invalid="no">2.0000000000000001e-01</row></column><column creation_time="2023-28-09 15:30:21:349" caption_spec="%n%C{ - }%c" name="3" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2023-28-09 15:30:21:349" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2023-28-09 15:30:21:350" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="7">1/col(&quot;1&quot;)</formula><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">1.2500000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">1.4285714285714286e+00</row><row type="TypeDouble" index="3" invalid="no">1.6666666666666667e+00</row><row type="TypeDouble" index="4" invalid="no">2.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">2.5000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">3.3333333333333335e+00</row><row type="TypeDouble" index="7" invalid="no">5.0000000000000000e+00</row></column><column creation_time="2023-28-09 15:26:53:398" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2023-28-09 15:26:53:398" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2023-28-09 15:26:53:399" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="7">col(&quot;P(torr)&quot;)/760</formula><row type="TypeDouble" index="0" invalid="no">7.5000000000000000e-01</row><row type="TypeDouble" index="1" invalid="no">8.8947368421052631e-01</row><row type="TypeDouble" index="2" invalid="no">9.8026315789473684e-01</row><row type="TypeDouble" index="3" invalid="no">1.2802631578947368e+00</row><row type="TypeDouble" index="4" invalid="no">1.5394736842105263e+00</row><row type="TypeDouble" index="5" invalid="no">1.7302631578947369e+00</row><row type="TypeDouble" index="6" invalid="no">2.2999999999999998e+00</row><row type="TypeDouble" index="7" invalid="no">3.5499999999999998e+00</row></column><column_width column="0">120</column_width><column_width column="1">217</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width><column_width column="4">120</column_width></table>
+geometry	33	132	695	484	
 
 </table>
 <multiLayer>
 Graph1	1	1	Thursday, September 28, 2023 3:28:07 PM EDT
-geometry	0	536	196	28	minimized	
+geometry	357	17	653	493	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	1431	438
 Alignement	0	0
 <graph>
-ggeometry	2	3	645	439
+ggeometry	1	2	645	438
 PlotTitle		#ff000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffffff	255
@@ -27,23 +27,23 @@ EnabledAxes	1	0	1	0
 AxesTitles	V (mL)	P (torr)			
 AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
 AxesTitleAlignment	4	4	4	4
-TitleFont	.AppleSystemUIFont	13	75	0	0	0
-ScaleFont0	.AppleSystemUIFont	14	75	0	0	0
-ScaleFont1	.AppleSystemUIFont	11	75	0	0	0
-ScaleFont2	.AppleSystemUIFont	14	75	0	0	0
-ScaleFont3	.AppleSystemUIFont	11	75	0	0	0
-AxisFont0	.AppleSystemUIFont	14	50	0	0	0
-AxisFont1	.AppleSystemUIFont	11	50	0	0	0
-AxisFont2	.AppleSystemUIFont	14	50	0	0	0
-AxisFont3	.AppleSystemUIFont	11	50	0	0	0
+TitleFont	.AppleSystemUIFont	23	75	0	0	0
+ScaleFont0	.AppleSystemUIFont	18	75	0	0	0
+ScaleFont1	.AppleSystemUIFont	20	75	0	0	0
+ScaleFont2	.AppleSystemUIFont	18	75	0	0	0
+ScaleFont3	.AppleSystemUIFont	20	75	0	0	0
+AxisFont0	.AppleSystemUIFont	18	50	0	0	0
+AxisFont1	.AppleSystemUIFont	20	50	0	0	0
+AxisFont2	.AppleSystemUIFont	18	50	0	0	0
+AxisFont3	.AppleSystemUIFont	20	50	0	0	0
 EnabledTickLabels	1	1	1	1	
 AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
 AxesNumberColors	#d8000000	#d8000000	#d8000000	#d8000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffffff	255
-curve	Table1_V(mL)	Table1_P(torr)	1	0	#ff000000	0	1	11	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
+curve	Table1_V(mL)	Table1_P(torr)	1	0	#ff000000	0	1	9	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
 scale	0	0	3000	0	8	5	0	0
-scale	1	500	3000	0	8	5	0	0
+scale	1	0	3000	0	8	5	0	0
 scale	2	0	1200	0	8	5	0	0
 scale	3	0	1200	0	8	5	0	0
 LabelsFormat	0	4	0	4	0	4	0	4	
@@ -58,14 +58,14 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 Graph2	1	1	Thursday, September 28, 2023 3:32:38 PM EDT
-geometry	786	16	655	494	active
+geometry	791	19	655	494	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	435	273
 Alignement	0	0
 <graph>
-ggeometry	5	5	642	434
+ggeometry	5	5	643	435
 PlotTitle		#ff000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffffff	255
@@ -91,7 +91,7 @@ AxesNumberColors	#d8000000	#d8000000	#d8000000	#d8000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffffff	255
 curve	Table1_3	Table1_2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
-FunctionCurve	0,LinearFit1,x,1,5	2			0	1	#ffff0000	0	2	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	49126880	24576	1
+FunctionCurve	0,LinearFit1,x,1,5	2			0	1	#ffff0000	0	2	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	52034272	24576	1
 <formula>
 B=0.0500028624861648
 A=0.694208232577694
@@ -114,6 +114,16 @@ LabelsRotation	0	0
 </multiLayer>
 <log>
 [Thursday, September 28, 2023 3:39:47 PM EDT	Plot: ''Graph2'']
+Linear Regression fit of dataset: Table1_2, using function: A*x+B
+Y standard errors: Unknown
+From x = 1 to x = 5
+B (y-intercept) = 0.0500028624861648 +/- 0.0503730126063626
+A (slope) = 0.694208232577694 +/- 0.0194350282861029
+--------------------------------------------------------------------------------------
+Chi^2 = 0.0281809152505548
+R^2 = 0.998964315530236
+---------------------------------------------------------------------------------------
+[Friday, September 29, 2023 11:57:01 AM EDT	Plot: ''Graph2'']
 Linear Regression fit of dataset: Table1_2, using function: A*x+B
 Y standard errors: Unknown
 From x = 1 to x = 5
