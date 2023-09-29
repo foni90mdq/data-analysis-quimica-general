@@ -26,3 +26,15 @@ Podemos cambiar los nombres de las columnas haciendo click en el encabezado de l
 
 ![](fig/propiedades.png)
 
+Debemos mirar con atención el encabezado de las columnas:
+
+![](fig/encabe.png)
+
+Como vemos, hay una columna $[x]$ y otra $[y]$, podemos cambiar esto haciendo click con el boton derecho sobre el encabezado de las columnas y llendo a la opcion "Set column as". SciDavis siempre graficara una o mas columnas $[y]$ respecto de la columna $[x]$ que este a su izquierda. Para hacer un grafico de puntos (dispersion) simple solo basta con seleccionar la o las columnas $[y]$ que queremos graficar (no hace falta seleccionar la columna $[x]$) y luego seleccionamos la opcion "Scatter" en el siguiente panel:
+
+![](fig/scatter.png)
+
+
+
+
+

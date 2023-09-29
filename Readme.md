@@ -8,7 +8,7 @@ Para consultas o sugerencias: pepealfonso22@gmail.com
 
   * [La importancia del análisis de datos](#la-importancia-del-análisis-de-datos)
   * [Informática](#informática)
-  * [Guía de instalación de SciDavis](https://github.com/foni90mdq/data-analysis-quimica-general/blob/main/Scidavis.md)
+  * [Guía de instalación y mini tutorial de SciDavis](https://github.com/foni90mdq/data-analysis-quimica-general/blob/main/Scidavis.md)
   * [Un ejemplo de solubilidad](#Un-ejemplo-de-solubilidad)
   * [Transformaciones de datos y modelado](#transformaciones-de-datos-y-modelado)
   * [Un ejemplo de gases](#Un-ejemplo-de-gases)
