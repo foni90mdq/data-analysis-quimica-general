@@ -8,7 +8,7 @@ Para consultas o sugerencias: pepealfonso22@gmail.com
 
   * [La importancia del análisis de datos](#la-importancia-del-análisis-de-datos)
   * [Informática](#informática)
-  * [Guía de instalación de SciDavies](https://github.com/foni90mdq/data-analysis-quimica-general/blob/main/Scidavis.md)
+  * [Guía de instalación de SciDavis](https://github.com/foni90mdq/data-analysis-quimica-general/blob/main/Scidavis.md)
   * [Un ejemplo de solubilidad](#Un-ejemplo-de-solubilidad)
   * [Transformaciones de datos y modelado](#transformaciones-de-datos-y-modelado)
   * [Un ejemplo de gases](#Un-ejemplo-de-gases)
@@ -48,7 +48,7 @@ El software libre usualmente posee licencia de Copy Left, puede ser compartido l
 Algunas alternativas a los programas mencionados anteriormente son las siguientes:
 
 1. [Libre Office](https://www.libreoffice.org/) (Writer, Calc, Impress, para edición de texto, hojas de cálculo y presentaciones)
-2. [Alpha plot](https://alphaplot.sourceforge.io/), [SciDavies](https://scidavis.sourceforge.net/), [Gnuplot](http://www.gnuplot.info/), [R](https://www.r-project.org/), [Python](https://www.python.org/) (para análisis y representación de datos)
+2. [Alpha plot](https://alphaplot.sourceforge.io/), [SciDavis](https://scidavis.sourceforge.net/), [Gnuplot](http://www.gnuplot.info/), [R](https://www.r-project.org/), [Python](https://www.python.org/) (para análisis y representación de datos)
 3. [GIMP](https://www.gimp.org/) and [Inkscape](https://inkscape.org/) (para edición de figuras)
 4. [Zotero](https://www.zotero.org/), [Mendeley](https://www.mendeley.com/) (para gestionar bibliografía)
 
