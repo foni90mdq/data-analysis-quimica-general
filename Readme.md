@@ -9,7 +9,7 @@ Para consultas o sugerencias: pepealfonso22@gmail.com
   * [La importancia del análisis de datos](#la-importancia-del-análisis-de-datos)
   * [Informática](#informática)
   * [Guía de instalación de SciDavies](#guía-de-instalción-de-scidavies)
-  * [Ejemplo 1: solubilidad](#ejemplo-1:-solubilidad)
+  * [Ejemplo 1: solubilidad](#Un-ejemplo-de-solubilidad)
   * [Transformaciones de datos y modelado](#transformaciones-de-datos-y-modelado)
   * [Introducción a R, un gran software libre para analisis y representacion de datos](https://github.com/foni90mdq/introduccion-a-r.github.io)
 
@@ -60,7 +60,7 @@ Para los trabajo prácticos que desarrollaremos en Química General es suficient
 [Aquí](Scidavis.md) podrán encontrar un pequeño tutorial para la instalación y primeros pasos de SciDavis.
 
 
-## Ejemplo 1: Solubilidad
+## Un ejemplo de solubilidad
 
 Queremos investigar como varía la solubilidad del NaCl con la temperatura. Se preparan soluciones saturadas de NaCl a distinta temperatura y se mide su concentración. Los datos obtenidos son los que se muestran en la Tabla 1.
 
