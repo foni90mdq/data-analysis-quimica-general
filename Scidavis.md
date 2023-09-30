@@ -20,7 +20,7 @@ Los datos pueden ingresarse a mano o pueden importarse desde otro archivo, dejar
 
 Ingresemos los datos en la tabla de la siguiente manera:
 
-<img src="fig/ventas.png" width="75%" height="75%">
+<img src="fig/ventas.png" width="50%" height="50%">
 
 Podemos cambiar los nombres de las columnas haciendo click en el encabezado de las mismas, tambien podemos editar las propiedades de las columnas en el panel de la derecha:
 
