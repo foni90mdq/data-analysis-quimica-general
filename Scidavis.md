@@ -64,7 +64,7 @@ Luego de elegir el formato adecuado y escribir un nombre ponemos "Save" y obtend
 
 <img src="fig/ventas-export.svg" />
 
-## Refgresión lineal
+## Regresión lineal
 
 Podemos ahora hacer una regresión lineal, para eso debemos tener el gráfico en cuestión como ventana activa, luego debemos hacer click en "fit linear" en:
 
