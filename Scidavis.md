@@ -9,7 +9,7 @@ Luego de descargarlo sólo debemos hacer doble click sobre el instalador y segui
 
 Luego de abrir SciDavis por primera vez nos encontraremos con una pantalla similar a la siguiente:
 
-<img src="scidavis.png" alt="alt text" width="200" height="200">
+<img src="fig/scidavis.png" alt="alt text" width="200" height="200">
 
 SciDavis combina una hoja de cálculo similar a Excel con un conjunto de herramientas destinadas al análisis y la representación de datos.
 La pantalla está dividida en paneles, donde podemos encontrar la hoja de calculo con un panel de propiedades. 
