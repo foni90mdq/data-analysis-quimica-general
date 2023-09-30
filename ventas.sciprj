@@ -8,8 +8,8 @@ geometry	0	0	695	484
 
 </table>
 <multiLayer>
-Graph1	1	1	Friday, September 29, 2023 10:23:43 PM EDT
-geometry	766	7	500	400	active
+Graph1	1	1	Friday, September 29, 2023 11:37:14 PM EDT
+geometry	695	0	500	400	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -42,10 +42,10 @@ AxesNumberColors	#d8000000	#d8000000	#d8000000	#d8000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffffff	255
 curve	Table1_Trimestre	Table1_Ventas	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
-FunctionCurve	0,LinearFit1,x,1,12	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	45439776	24576	1
+FunctionCurve	0,LinearFit1,x,1,4	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	45427936	24576	1
 <formula>
-B=441.666666666667
-A=359.615384615385
+B=625
+A=265
 
 A*x+B
 </formula>
@@ -73,5 +73,15 @@ A (slope) = 359.615384615385 +/- 30.4289900512459
 --------------------------------------------------------------------------------------
 Chi^2 = 1,324,070.51282051
 R^2 = 0.988230745869465
+---------------------------------------------------------------------------------------
+[Friday, September 29, 2023 11:41:55 PM EDT	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table1_Ventas, using function: A*x+B
+Y standard errors: Unknown
+From x = 1 to x = 4
+B (y-intercept) = 625 +/- 458.870896876235
+A (slope) = 265 +/- 167.55596080116
+--------------------------------------------------------------------------------------
+Chi^2 = 280,750
+R^2 = 0.961342512908778
 ---------------------------------------------------------------------------------------
 </log>
