@@ -32,23 +32,23 @@ Debemos mirar con atención el encabezado de las columnas:
 
 Como vemos, hay una columna $[x]$ y otra $[y]$, podemos cambiar esto haciendo click con el boton derecho sobre el encabezado de las columnas y llendo a la opcion "Set column as". SciDavis siempre graficara una o mas columnas $[y]$ respecto de la columna $[x]$ que este a su izquierda. Para hacer un grafico de puntos (dispersion) simple solo basta con seleccionar la o las columnas $[y]$ que queremos graficar (no hace falta seleccionar la columna $[x]$) y luego seleccionamos la opcion "Scatter" en el siguiente panel:
 
-<img src="fig/scatter.png" style="zoom:50%;" />
+<img src="fig/scatter.png" width="50%" height="50%">
 
 Deberiamos obtener algo como esto:
 
-<img src="fig/ven1.png" style="zoom:50%;" />
+<img src="fig/ven1.png" width="50%" height="50%">
 
 
 
 Todos los campos son editables, usualmente queremos eliminar el titulo porque el titulo lo pondremos debajo de la figura en el manuscrito que estemos escribiend. La leyenda tambien es preferible eliminarla cuando hay 1 sola serie de datos porque es redundante. Tambien debemos poner el titulo adecuado a los ejes con sus unidades:
 
-<img src="fig/ven2.png" style="zoom:50%;" />
+<img src="fig/ven2.png" width="50%" height="50%">
 
 Para este tutorial solo estamos haciendo capturas de pantalla para obtener las imagenes presentadas, sin embargo para la presentacion de figuras en informes o articulos cientificos debemos exportar las imagenes en un formato adecuado de manera que no luzcan pixeladas en el documento definitivo.
 
 Un formato ampliamente utilizado es PNG (la calidad debe ser suficientemente alta, usualmente >300ppi), sin embargo para gráficos de este tipo es mejor utilizar formatos de imagenes vectoriales (EPS, VSG, PDF), estos formatos permiten el escalo de la imagen sin perdida de resolucion y permite mantener el tamano de los documentos pequenos sin detrimento de la calidad de imagen. Para exportar el grafico anterior debemos ir a export current image (la ventana del grafico que queremos exportar debe estar activa):
 
-<img src="fig/exportar.png" style="zoom:50%;" />
+<img src="fig/exportar.png" width="50%" height="50%">
 
 
 
@@ -56,7 +56,7 @@ Luego debemos elejir el formato adecuado, SVG suele ser una buena opción ya que
 
 
 
- <img src="fig/ven3.png" style="zoom:50%;" />
+ <img src="fig/ven3.png" width="50%" height="50%">
 
 
 
@@ -68,13 +68,13 @@ Luego de elegir el formato adecuado y escribir un nombre ponemos Save y obtendre
 
 Podemos tambien hacer una regresion lineal, para eso debemos tener el grafico en cuestion como ventana activa, luego debemos hacer click en "fit linear" en:
 
-<img src="fig/fit.png" style="zoom:50%;"/>
+<img src="fig/fit.png" width="50%" height="50%">
 
 
 
 y obtendremos lo siguiente:
 
-<img src="fig/fiteo.png" alt="fiteo" style="zoom:50%;" />
+<img src="fig/fiteo.png" alt="fiteo" width="50%" height="50%">
 
 
 
@@ -82,15 +82,15 @@ En el panel superior "Results log" podremos ver el resultado de la regesion line
 
 En ciertas ocaciones no queremos usar todos los puntos del grafico para hacer la regresion, supongamos que solo queremos usar los cuatro primeros puntos, debemos usar para esto la opcion "select data range":
 
-<img src="fig/range.png" alt="range" style="zoom:50%;" />
+<img src="fig/range.png" alt="range" width="50%" height="50%">
 
 Luego en el area del grafico movemos los circulos amarillos para abarcar el rango deseado, primero debe moverse un criculo y luego con las flechas de direccion del teclado hay que seleccionar el otro circulo y hacer lo mismo:
 
-<img src="fig/ran2.png" style="zoom:50%;"/>
+<img src="fig/ran2.png" width="50%" height="50%">
 
 Si hacemos nuevamente la regresion obtendremos lo siguiente:
 
-<img src="fig/ran3.png" style="zoom:50%;"/>
+<img src="fig/ran3.png" width="50%" height="50%">
 
 
 
