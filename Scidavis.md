@@ -9,7 +9,7 @@ Luego de descargarlo sólo debemos hacer doble click sobre el instalador y segui
 
 Luego de abrir SciDavis por primera vez nos encontraremos con una pantalla similar a la siguiente:
 
-<img src="fig/scidavis.png" alt="alt text" width="50%" height="50%">
+<img src="fig/scidavis.png" alt="alt text" width="75%" height="75%">
 
 SciDavis combina una hoja de cálculo similar a Excel con un conjunto de herramientas destinadas al análisis y la representación de datos.
 La pantalla está dividida en paneles, donde podemos encontrar la hoja de calculo con un panel de propiedades. 
@@ -20,7 +20,7 @@ Los datos pueden ingresarse a mano o pueden importarse desde otro archivo, dejar
 
 Ingresemos los datos en la tabla de la siguiente manera:
 
-![](fig/ventas.png)
+<img src="fig/ventas.png" alt="alt text" width="75%" height="75%">
 
 Podemos cambiar los nombres de las columnas haciendo click en el encabezado de las mismas, tambien podemos editar las propiedades de las columnas en el panel de la derecha:
 
