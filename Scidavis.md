@@ -88,5 +88,7 @@ Si hacemos nuevamente la regresion obtendremos ahora lo siguiente:
 
 <img src="fig/ran3.png" width="50%" height="50%">
 
+En algunos casos es deseable extender la recta de regresión más alla del rango de datos que tenemos,
+
 
 
