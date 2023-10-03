@@ -84,11 +84,25 @@ Luego en el área del gráfico movemos los círculos amarillos para abarcar el r
 
 <img src="fig/ran2.png" width="50%" height="50%">
 
-Si hacemos nuevamente la regresion obtendremos ahora lo siguiente:
+Si hacemos nuevamente la regresion obtendremos ahora lo siguiente
 
 <img src="fig/ran3.png" width="50%" height="50%">
 
-En algunos casos es deseable extender la recta de regresión más alla del rango de datos que tenemos,
+En algunos casos es deseable extender la recta de regresión más alla del rango de datos que tenemos, supongamos que queremos ver donde la recta de regresion corta al eje y, podemos por supuesto obtener la ordenada al origen o la informacion que necesitemos de manera analitica usando la funcion obtenida. Para representarlo graficamente podemos prolongar la recta de regresion hacia la izquierda haciendo doble click en la recta roja y vamos a "LinearFit1"
+
+<img src="fig/ext1.png" width="50%" height="50%">
+
+Y luego a Edit:
+
+<img src="fig/ext2.png" width="50%" height="50%">
+
+Podemos cambiar alli los parametros y poner "From x= -1" por ejemplo, damos click a "ok" y obtendremos algo asi:
+
+<img src="fig/ext3.png" width="50%" height="50%">
+
+Luego podemos mover el eje Y para que pase por el cero.
+
+
 
 
 
